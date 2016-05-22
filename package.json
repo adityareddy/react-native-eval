@@ -1,24 +1,25 @@
 {
-  "name": "react-native-eval",
-  "repository": {
-    "type" : "git",
-    "url" : "https://github.com/artemyarulin/react-native-eval"
-  },
-  "scripts": {
-    "start": "./node_modules/react-native/packager/packager.sh --reset-cache --root react-native-eval",
-    "update": "wget -O react-native-eval/js/app.js http://localhost:8081/index.ios.bundle"
-  },
+  "name": "react-native-eval-updated",
   "version": "0.2.0",
-  "description": "Call any JS functions from your native code",
+  "description": "React has a good [tutorial](http://facebook.github.io/react-native/docs/embedded-app-ios.html#content) how to integrate React View to already existing application, but it doesn't provide a good way if you decided to migrate some of your business logic to JS first while maintaining the same UI.",
   "main": "RNMEvaluator.js",
-  "author": "Artem Yarulin <artem.yarulin@fessguid.com>",
+  "directories": {
+    "example": "example"
+  },
   "peerDependencies": {
     "react-native": ""
   },
-  "keywords": [
-    "react-native",
-    "react",
-    "native",
-    "eval"
-  ]
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityareddy/react-native-eval.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityareddy/react-native-eval/issues"
+  },
+  "homepage": "https://github.com/adityareddy/react-native-eval#readme"
 }
